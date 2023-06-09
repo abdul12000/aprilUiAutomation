@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="8.916" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="SocialNetworking" name="Create a new social networking comment - Example #1.1" time="8.193">
+<system-out><![CDATA[
+Given service is up and running.............................................passed
+When I create a new comment with the following details "2004", "Sheyi Abdul", "sheyi@Abdul.com" and "Just commenting on this recent post of your holiday".passed
+Then I should get response of "2004", "Sheyi Abdul", "sheyi@Abdul.com" and "Just commenting on this recent post of your holiday" returned with status code of 201.passed
+]]></system-out>
+</testcase>
+</testsuite>
